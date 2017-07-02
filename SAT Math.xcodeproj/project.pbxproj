@@ -7,13 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D9C989B9611975BDB887344 /* Pods_SAT_MathTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C25B78BD94A2352CD53F5A2B /* Pods_SAT_MathTests.framework */; };
+		667FAC5D1EF706F100A5194F /* MCQuestionTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667FAC5C1EF706F100A5194F /* MCQuestionTable.swift */; };
+		667FAC7B1EF86CFB00A5194F /* QuestionTable.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 667FAC7A1EF86CFB00A5194F /* QuestionTable.storyboard */; };
+		667FAC7D1EF8702800A5194F /* TestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667FAC7C1EF8702800A5194F /* TestVC.swift */; };
+		667FAC7F1EF87A6A00A5194F /* TopTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667FAC7E1EF87A6A00A5194F /* TopTVC.swift */; };
+		667FAC811EF8BDC800A5194F /* Problems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667FAC801EF8BDC800A5194F /* Problems.swift */; };
+		667FAC831EF8DD4100A5194F /* Ma1TVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667FAC821EF8DD4100A5194F /* Ma1TVC.swift */; };
 		66819AA21EF5A8A70074FAB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66819AA11EF5A8A70074FAB5 /* AppDelegate.swift */; };
-		66819AA41EF5A8A70074FAB5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66819AA31EF5A8A70074FAB5 /* ViewController.swift */; };
+		66819AA41EF5A8A70074FAB5 /* MathQuestioner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66819AA31EF5A8A70074FAB5 /* MathQuestioner.swift */; };
 		66819AA71EF5A8A70074FAB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66819AA51EF5A8A70074FAB5 /* Main.storyboard */; };
 		66819AA91EF5A8A70074FAB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66819AA81EF5A8A70074FAB5 /* Assets.xcassets */; };
 		66819AAC1EF5A8A70074FAB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66819AAA1EF5A8A70074FAB5 /* LaunchScreen.storyboard */; };
 		66819AB71EF5A8A70074FAB5 /* SAT_MathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66819AB61EF5A8A70074FAB5 /* SAT_MathTests.swift */; };
 		66819AC21EF5A8A70074FAB5 /* SAT_MathUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66819AC11EF5A8A70074FAB5 /* SAT_MathUITests.swift */; };
+		66DBE14C1EFA339E0006C30D /* MCChoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DBE14B1EFA339E0006C30D /* MCChoice.swift */; };
+		A19296E8388B268408AF4C99 /* Pods_SAT_MathUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0435F6A3143EB9ECFEA5E3D1 /* Pods_SAT_MathUITests.framework */; };
+		EDD2249EFB949E3D9AEAE94F /* Pods_SAT_Math.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB1C21C0A1948AB3BCB2A3F8 /* Pods_SAT_Math.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +44,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0435F6A3143EB9ECFEA5E3D1 /* Pods_SAT_MathUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SAT_MathUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1669E318A8123B94F1B6382E /* Pods-SAT MathUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAT MathUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SAT MathUITests/Pods-SAT MathUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4324637F433546069C434C8D /* Pods-SAT Math.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAT Math.release.xcconfig"; path = "Pods/Target Support Files/Pods-SAT Math/Pods-SAT Math.release.xcconfig"; sourceTree = "<group>"; };
+		57AAA7C382E1CF2BB7543F7A /* Pods-SAT Math.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAT Math.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SAT Math/Pods-SAT Math.debug.xcconfig"; sourceTree = "<group>"; };
+		60A16A7B4AFD0E8FEBFC96CB /* Pods-SAT MathTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAT MathTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SAT MathTests/Pods-SAT MathTests.release.xcconfig"; sourceTree = "<group>"; };
+		667FAC5C1EF706F100A5194F /* MCQuestionTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MCQuestionTable.swift; sourceTree = "<group>"; };
+		667FAC7A1EF86CFB00A5194F /* QuestionTable.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = QuestionTable.storyboard; sourceTree = "<group>"; };
+		667FAC7C1EF8702800A5194F /* TestVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestVC.swift; sourceTree = "<group>"; };
+		667FAC7E1EF87A6A00A5194F /* TopTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopTVC.swift; sourceTree = "<group>"; };
+		667FAC801EF8BDC800A5194F /* Problems.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problems.swift; sourceTree = "<group>"; };
+		667FAC821EF8DD4100A5194F /* Ma1TVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ma1TVC.swift; sourceTree = "<group>"; };
 		66819A9E1EF5A8A70074FAB5 /* SAT Math.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SAT Math.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		66819AA11EF5A8A70074FAB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		66819AA31EF5A8A70074FAB5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		66819AA31EF5A8A70074FAB5 /* MathQuestioner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathQuestioner.swift; sourceTree = "<group>"; };
 		66819AA61EF5A8A70074FAB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		66819AA81EF5A8A70074FAB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66819AAB1EF5A8A70074FAB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +68,11 @@
 		66819ABD1EF5A8A70074FAB5 /* SAT MathUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SAT MathUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		66819AC11EF5A8A70074FAB5 /* SAT_MathUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SAT_MathUITests.swift; sourceTree = "<group>"; };
 		66819AC31EF5A8A70074FAB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66DBE14B1EFA339E0006C30D /* MCChoice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MCChoice.swift; sourceTree = "<group>"; };
+		69B0AE3B0B70FCA56C509F78 /* Pods-SAT MathTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAT MathTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SAT MathTests/Pods-SAT MathTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B5192697460A813D3211BE4A /* Pods-SAT MathUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAT MathUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SAT MathUITests/Pods-SAT MathUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C25B78BD94A2352CD53F5A2B /* Pods_SAT_MathTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SAT_MathTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB1C21C0A1948AB3BCB2A3F8 /* Pods_SAT_Math.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SAT_Math.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDD2249EFB949E3D9AEAE94F /* Pods_SAT_Math.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D9C989B9611975BDB887344 /* Pods_SAT_MathTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +96,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A19296E8388B268408AF4C99 /* Pods_SAT_MathUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2DFA4395ACF572A7FD80AA09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB1C21C0A1948AB3BCB2A3F8 /* Pods_SAT_Math.framework */,
+				C25B78BD94A2352CD53F5A2B /* Pods_SAT_MathTests.framework */,
+				0435F6A3143EB9ECFEA5E3D1 /* Pods_SAT_MathUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		66819A951EF5A8A70074FAB5 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +120,8 @@
 				66819AB51EF5A8A70074FAB5 /* SAT MathTests */,
 				66819AC01EF5A8A70074FAB5 /* SAT MathUITests */,
 				66819A9F1EF5A8A70074FAB5 /* Products */,
+				A168DADEDBE31EAD25541D4D /* Pods */,
+				2DFA4395ACF572A7FD80AA09 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,8 +139,15 @@
 			isa = PBXGroup;
 			children = (
 				66819AA11EF5A8A70074FAB5 /* AppDelegate.swift */,
-				66819AA31EF5A8A70074FAB5 /* ViewController.swift */,
+				66819AA31EF5A8A70074FAB5 /* MathQuestioner.swift */,
+				667FAC7C1EF8702800A5194F /* TestVC.swift */,
+				667FAC5C1EF706F100A5194F /* MCQuestionTable.swift */,
 				66819AA51EF5A8A70074FAB5 /* Main.storyboard */,
+				667FAC7A1EF86CFB00A5194F /* QuestionTable.storyboard */,
+				667FAC821EF8DD4100A5194F /* Ma1TVC.swift */,
+				667FAC801EF8BDC800A5194F /* Problems.swift */,
+				66DBE14B1EFA339E0006C30D /* MCChoice.swift */,
+				667FAC7E1EF87A6A00A5194F /* TopTVC.swift */,
 				66819AA81EF5A8A70074FAB5 /* Assets.xcassets */,
 				66819AAA1EF5A8A70074FAB5 /* LaunchScreen.storyboard */,
 				66819AAD1EF5A8A70074FAB5 /* Info.plist */,
@@ -125,6 +173,19 @@
 			path = "SAT MathUITests";
 			sourceTree = "<group>";
 		};
+		A168DADEDBE31EAD25541D4D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				57AAA7C382E1CF2BB7543F7A /* Pods-SAT Math.debug.xcconfig */,
+				4324637F433546069C434C8D /* Pods-SAT Math.release.xcconfig */,
+				69B0AE3B0B70FCA56C509F78 /* Pods-SAT MathTests.debug.xcconfig */,
+				60A16A7B4AFD0E8FEBFC96CB /* Pods-SAT MathTests.release.xcconfig */,
+				1669E318A8123B94F1B6382E /* Pods-SAT MathUITests.debug.xcconfig */,
+				B5192697460A813D3211BE4A /* Pods-SAT MathUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +193,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 66819AC61EF5A8A70074FAB5 /* Build configuration list for PBXNativeTarget "SAT Math" */;
 			buildPhases = (
+				9AB15D211F2426F2219F6FED /* [CP] Check Pods Manifest.lock */,
 				66819A9A1EF5A8A70074FAB5 /* Sources */,
 				66819A9B1EF5A8A70074FAB5 /* Frameworks */,
 				66819A9C1EF5A8A70074FAB5 /* Resources */,
+				A892A5C931BACA7E1EA7E257 /* [CP] Embed Pods Frameworks */,
+				A0C5319356B53EA90D4E2501 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 66819AC91EF5A8A70074FAB5 /* Build configuration list for PBXNativeTarget "SAT MathTests" */;
 			buildPhases = (
+				54B094CD4817C88F7A025E08 /* [CP] Check Pods Manifest.lock */,
 				66819AAE1EF5A8A70074FAB5 /* Sources */,
 				66819AAF1EF5A8A70074FAB5 /* Frameworks */,
 				66819AB01EF5A8A70074FAB5 /* Resources */,
+				FBEEB765E7D5E591F45ED261 /* [CP] Embed Pods Frameworks */,
+				F301065A3CCCBE9D26411549 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +234,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 66819ACC1EF5A8A70074FAB5 /* Build configuration list for PBXNativeTarget "SAT MathUITests" */;
 			buildPhases = (
+				A0D6CBE56C16BF1E500A4F57 /* [CP] Check Pods Manifest.lock */,
 				66819AB91EF5A8A70074FAB5 /* Sources */,
 				66819ABA1EF5A8A70074FAB5 /* Frameworks */,
 				66819ABB1EF5A8A70074FAB5 /* Resources */,
+				3D35ED9317546215D12F8F90 /* [CP] Embed Pods Frameworks */,
+				F498210A403A95B344FBC7DD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,6 +305,7 @@
 				66819AAC1EF5A8A70074FAB5 /* LaunchScreen.storyboard in Resources */,
 				66819AA91EF5A8A70074FAB5 /* Assets.xcassets in Resources */,
 				66819AA71EF5A8A70074FAB5 /* Main.storyboard in Resources */,
+				667FAC7B1EF86CFB00A5194F /* QuestionTable.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,12 +325,156 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3D35ED9317546215D12F8F90 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SAT MathUITests/Pods-SAT MathUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54B094CD4817C88F7A025E08 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9AB15D211F2426F2219F6FED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A0C5319356B53EA90D4E2501 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SAT Math/Pods-SAT Math-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0D6CBE56C16BF1E500A4F57 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A892A5C931BACA7E1EA7E257 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SAT Math/Pods-SAT Math-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F301065A3CCCBE9D26411549 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SAT MathTests/Pods-SAT MathTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F498210A403A95B344FBC7DD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SAT MathUITests/Pods-SAT MathUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBEEB765E7D5E591F45ED261 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SAT MathTests/Pods-SAT MathTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		66819A9A1EF5A8A70074FAB5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66819AA41EF5A8A70074FAB5 /* ViewController.swift in Sources */,
+				667FAC831EF8DD4100A5194F /* Ma1TVC.swift in Sources */,
+				667FAC7D1EF8702800A5194F /* TestVC.swift in Sources */,
+				667FAC7F1EF87A6A00A5194F /* TopTVC.swift in Sources */,
+				667FAC5D1EF706F100A5194F /* MCQuestionTable.swift in Sources */,
+				66DBE14C1EFA339E0006C30D /* MCChoice.swift in Sources */,
+				667FAC811EF8BDC800A5194F /* Problems.swift in Sources */,
+				66819AA41EF5A8A70074FAB5 /* MathQuestioner.swift in Sources */,
 				66819AA21EF5A8A70074FAB5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -410,6 +625,7 @@
 		};
 		66819AC71EF5A8A70074FAB5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57AAA7C382E1CF2BB7543F7A /* Pods-SAT Math.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "SAT Math/Info.plist";
@@ -422,6 +638,7 @@
 		};
 		66819AC81EF5A8A70074FAB5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4324637F433546069C434C8D /* Pods-SAT Math.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "SAT Math/Info.plist";
@@ -434,6 +651,7 @@
 		};
 		66819ACA1EF5A8A70074FAB5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69B0AE3B0B70FCA56C509F78 /* Pods-SAT MathTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -448,6 +666,7 @@
 		};
 		66819ACB1EF5A8A70074FAB5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60A16A7B4AFD0E8FEBFC96CB /* Pods-SAT MathTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -462,6 +681,7 @@
 		};
 		66819ACD1EF5A8A70074FAB5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1669E318A8123B94F1B6382E /* Pods-SAT MathUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "SAT MathUITests/Info.plist";
@@ -475,6 +695,7 @@
 		};
 		66819ACE1EF5A8A70074FAB5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5192697460A813D3211BE4A /* Pods-SAT MathUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "SAT MathUITests/Info.plist";
@@ -505,6 +726,7 @@
 				66819AC81EF5A8A70074FAB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		66819AC91EF5A8A70074FAB5 /* Build configuration list for PBXNativeTarget "SAT MathTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +735,7 @@
 				66819ACB1EF5A8A70074FAB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		66819ACC1EF5A8A70074FAB5 /* Build configuration list for PBXNativeTarget "SAT MathUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +744,7 @@
 				66819ACE1EF5A8A70074FAB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

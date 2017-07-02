@@ -1,0 +1,21 @@
+PODS:
+  - iosMath (0.9.3)
+  - jot (0.1.5):
+    - Masonry (~> 0.6.1)
+  - Masonry (0.6.4)
+  - Pageboy (0.4.8)
+
+DEPENDENCIES:
+  - iosMath
+  - jot
+  - Pageboy
+
+SPEC CHECKSUMS:
+  iosMath: 619e53c34dfa19ac3062869f9974747b44507083
+  jot: 0f5dc333defa6ad805d01adc3834b201c22510a7
+  Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
+  Pageboy: 2c42de48398f12ecc0b365ecc9af0b9d72e5b564
+
+PODFILE CHECKSUM: 32e5ff3809421c7c867bc01d4e2ef2e86e3b25a9
+
+COCOAPODS: 1.2.1
