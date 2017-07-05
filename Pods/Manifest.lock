@@ -1,4 +1,5 @@
 PODS:
+  - BuddySDK (3.0.6)
   - iosMath (0.9.3)
   - jot (0.1.5):
     - Masonry (~> 0.6.1)
@@ -6,16 +7,18 @@ PODS:
   - Pageboy (0.4.8)
 
 DEPENDENCIES:
+  - BuddySDK
   - iosMath
   - jot
   - Pageboy
 
 SPEC CHECKSUMS:
+  BuddySDK: 7a663e7cbe87581d4d68ca6d2570c26f40506434
   iosMath: 619e53c34dfa19ac3062869f9974747b44507083
   jot: 0f5dc333defa6ad805d01adc3834b201c22510a7
   Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
   Pageboy: 2c42de48398f12ecc0b365ecc9af0b9d72e5b564
 
-PODFILE CHECKSUM: 32e5ff3809421c7c867bc01d4e2ef2e86e3b25a9
+PODFILE CHECKSUM: 457c5025820bb4c0dac7ea0c844dabe5a2f724a3
 
 COCOAPODS: 1.2.1

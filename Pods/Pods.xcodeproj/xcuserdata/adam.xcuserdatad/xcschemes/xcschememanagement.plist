@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>BuddySDK.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Masonry.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -52,7 +57,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>5C4A8C4B85501E07DBC8483CD2347A83</key>
+		<key>13CD4C011A77D5022D1B8FC2BA4DFCA4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>414EAE96D2B8C05927622196C9D6D30B</key>
 		<dict>
 			<key>primary</key>
 			<true/>

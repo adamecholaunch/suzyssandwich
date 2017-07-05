@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5C4A8C4B85501E07DBC8483CD2347A83"
+               BlueprintIdentifier = "414EAE96D2B8C05927622196C9D6D30B"
                BuildableName = "Pods_SAT_Math.framework"
                BlueprintName = "Pods-SAT Math"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5C4A8C4B85501E07DBC8483CD2347A83"
+            BlueprintIdentifier = "414EAE96D2B8C05927622196C9D6D30B"
             BuildableName = "Pods_SAT_Math.framework"
             BlueprintName = "Pods-SAT Math"
             ReferencedContainer = "container:Pods.xcodeproj">
