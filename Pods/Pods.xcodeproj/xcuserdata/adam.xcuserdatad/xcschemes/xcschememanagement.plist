@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Bolts.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>BuddySDK.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -15,6 +20,16 @@
 			<false/>
 		</dict>
 		<key>Pageboy.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Parse.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>ParseUI.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -62,12 +77,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>414EAE96D2B8C05927622196C9D6D30B</key>
+		<key>51CB0AF616C6306147B99C320EB6D3ED</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6EAED4B87B15382D72F2E9BABB56DDB5</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>9165A7AB627ACCBC2C5381555C5396EB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A760316124FD796EF09C09479E9F0021</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -93,6 +118,11 @@
 			<true/>
 		</dict>
 		<key>DF99EB95F0139938AC78BD1CD47E05E1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F957EABCA56BD8F5B626798CC7B344D3</key>
 		<dict>
 			<key>primary</key>
 			<true/>

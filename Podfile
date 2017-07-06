@@ -9,7 +9,8 @@ target 'SAT Math' do
    pod 'iosMath'
    pod 'Pageboy'
    pod 'jot'
-   pod 'BuddySDK'
+   pod 'BuddySDK' 
+   pod ‘ParseUI’
 
   target 'SAT MathTests' do
     inherit! :search_paths
