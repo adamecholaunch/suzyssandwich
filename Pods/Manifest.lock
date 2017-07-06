@@ -1,6 +1,5 @@
 PODS:
   - Bolts/Tasks (1.8.4)
-  - BuddySDK (3.0.6)
   - iosMath (0.9.3)
   - jot (0.1.5):
     - Masonry (~> 0.6.1)
@@ -13,7 +12,6 @@ PODS:
     - Parse (~> 1.9)
 
 DEPENDENCIES:
-  - BuddySDK
   - iosMath
   - jot
   - Pageboy
@@ -21,7 +19,6 @@ DEPENDENCIES:
 
 SPEC CHECKSUMS:
   Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
-  BuddySDK: 7a663e7cbe87581d4d68ca6d2570c26f40506434
   iosMath: 619e53c34dfa19ac3062869f9974747b44507083
   jot: 0f5dc333defa6ad805d01adc3834b201c22510a7
   Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
@@ -29,6 +26,6 @@ SPEC CHECKSUMS:
   Parse: 4335d65f40cb3d43190d723144bbe1afb9c38230
   ParseUI: af2eba584799da4a9fbdac0e178662d7438b502e
 
-PODFILE CHECKSUM: d11a46b6b8767f8076e74f5096b074c6151e0907
+PODFILE CHECKSUM: db3bb7a36520ffd4bb9de0c6fbfb4edd6cae8d07
 
 COCOAPODS: 1.2.1

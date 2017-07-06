@@ -35,7 +35,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             
             if (error == nil) {
                 print("Success")
-                print(objects!)
+                
+                if (objects != nil) {
+                    for object in objects! {
+                        if object["mcA"] != nil {
+                            print(object["mcA"]!)
+                        }
+                    }
+                }
+                
             } else {
                 print("Error")
             }
