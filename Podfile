@@ -10,6 +10,7 @@ target 'SAT Math' do
    pod 'Pageboy'
    pod 'jot'
    pod ‘ParseUI’
+   pod 'SWRevealViewController'
 
   target 'SAT MathTests' do
     inherit! :search_paths

@@ -44,6 +44,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>SWRevealViewController.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>iosMath-mathFonts.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -61,6 +66,67 @@
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
-	<dict/>
+	<dict>
+		<key>06E2463E18860775710BDED29E5FDFA2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1633D5E07B007499B3F78CC77ADE7DFD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>51CB0AF616C6306147B99C320EB6D3ED</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5EAA41EFE293E2E5FE65FBC9D49365C2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9165A7AB627ACCBC2C5381555C5396EB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A760316124FD796EF09C09479E9F0021</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BB591C7585C823CFD189C6EF21CF65C6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BE8C90589225FCC3A6672520B3A83618</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C8D192197933650AB5E2F29BC1B8A108</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D4A2683A6BCF19F1D2CA67F075B1C6C6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DF99EB95F0139938AC78BD1CD47E05E1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F957EABCA56BD8F5B626798CC7B344D3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
 </dict>
 </plist>
