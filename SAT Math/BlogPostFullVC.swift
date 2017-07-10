@@ -12,11 +12,17 @@ class BlogPostFullVC: UIViewController {
 
     @IBOutlet weak var webview: UIWebView!
     
+    var requestToLoad : URLRequest?
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        
+        if requestToLoad != nil {
+           
+            self.webview.loadRequest(requestToLoad!)
+        }
     }
 
     override func didReceiveMemoryWarning() {

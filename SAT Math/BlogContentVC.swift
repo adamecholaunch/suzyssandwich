@@ -27,9 +27,28 @@ class BlogContentVC: UIViewController {
             }
         }
         
+        self.blogImage.isUserInteractionEnabled = true
+        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(BlogContentVC.pushToWebview))
+        self.blogImage.addGestureRecognizer(tapGesture)
+        
     }
     
-
+    func pushToWebview() {
+        
+        let storyboard = UIStoryboard(name: "QuestionTable", bundle: Bundle.main)
+        let fullblogpost : BlogPostFullVC = storyboard.instantiateViewController(withIdentifier: "blogpostfull") as! BlogPostFullVC
+        
+        let url = NSURL (string: "http://www.apple.com");
+        let requestObj = URLRequest(url: url! as URL);
+        fullblogpost.requestToLoad = requestObj
+        
+        
+        if let navigator = navigationController {
+            navigator.pushViewController(fullblogpost, animated: true)
+        }
+        
+        
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
