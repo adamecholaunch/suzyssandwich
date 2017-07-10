@@ -24,6 +24,7 @@
 		66819AAC1EF5A8A70074FAB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66819AAA1EF5A8A70074FAB5 /* LaunchScreen.storyboard */; };
 		66819AB71EF5A8A70074FAB5 /* SAT_MathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66819AB61EF5A8A70074FAB5 /* SAT_MathTests.swift */; };
 		66819AC21EF5A8A70074FAB5 /* SAT_MathUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66819AC11EF5A8A70074FAB5 /* SAT_MathUITests.swift */; };
+		668586DD1F13F2BC00104024 /* BlogPostFullVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668586DC1F13F2BC00104024 /* BlogPostFullVC.swift */; };
 		66DBE14C1EFA339E0006C30D /* MCChoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DBE14B1EFA339E0006C30D /* MCChoice.swift */; };
 		A19296E8388B268408AF4C99 /* Pods_SAT_MathUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0435F6A3143EB9ECFEA5E3D1 /* Pods_SAT_MathUITests.framework */; };
 		EDD2249EFB949E3D9AEAE94F /* Pods_SAT_Math.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB1C21C0A1948AB3BCB2A3F8 /* Pods_SAT_Math.framework */; };
@@ -74,6 +75,7 @@
 		66819ABD1EF5A8A70074FAB5 /* SAT MathUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SAT MathUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		66819AC11EF5A8A70074FAB5 /* SAT_MathUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SAT_MathUITests.swift; sourceTree = "<group>"; };
 		66819AC31EF5A8A70074FAB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		668586DC1F13F2BC00104024 /* BlogPostFullVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlogPostFullVC.swift; sourceTree = "<group>"; };
 		66DBE14B1EFA339E0006C30D /* MCChoice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MCChoice.swift; sourceTree = "<group>"; };
 		69B0AE3B0B70FCA56C509F78 /* Pods-SAT MathTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAT MathTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SAT MathTests/Pods-SAT MathTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B5192697460A813D3211BE4A /* Pods-SAT MathUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAT MathUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SAT MathUITests/Pods-SAT MathUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -166,6 +168,7 @@
 				661EC7BE1F12F86C0014E12D /* BlogPVC.swift */,
 				661EC7C01F1318FD0014E12D /* BlogContentVC.swift */,
 				667FAC7A1EF86CFB00A5194F /* QuestionTable.storyboard */,
+				668586DC1F13F2BC00104024 /* BlogPostFullVC.swift */,
 				66819AA81EF5A8A70074FAB5 /* Assets.xcassets */,
 				661EC7B91F12CDF00014E12D /* nonHomepage */,
 			);
@@ -494,6 +497,7 @@
 				661EC7BF1F12F86C0014E12D /* BlogPVC.swift in Sources */,
 				66DBE14C1EFA339E0006C30D /* MCChoice.swift in Sources */,
 				667FAC811EF8BDC800A5194F /* Problems.swift in Sources */,
+				668586DD1F13F2BC00104024 /* BlogPostFullVC.swift in Sources */,
 				66819AA41EF5A8A70074FAB5 /* MathQuestioner.swift in Sources */,
 				66819AA21EF5A8A70074FAB5 /* AppDelegate.swift in Sources */,
 			);

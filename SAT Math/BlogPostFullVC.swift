@@ -1,35 +1,23 @@
 //
-//  BlogContentVC.swift
+//  BlogPostFullVC.swift
 //  SAT Math
 //
-//  Created by Adam Buys on 7/9/17.
+//  Created by Adam Buys on 7/10/17.
 //  Copyright © 2017 Adam Buys. All rights reserved.
 //
 
 import UIKit
 
-class BlogContentVC: UIViewController {
-    
-    var pageIndex = -1000 // for now
-    var image : UIImage?
+class BlogPostFullVC: UIViewController {
 
-    @IBOutlet weak var blogImage: UIImageView!
+    @IBOutlet weak var webview: UIWebView!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        if blogImage != nil {
-        
-            self.blogImage.contentMode = .scaleToFill
-            
-            if image != nil {
-                self.blogImage.image = image
-            }
-        }
-        
-    }
-    
 
+        // Do any additional setup after loading the view.
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

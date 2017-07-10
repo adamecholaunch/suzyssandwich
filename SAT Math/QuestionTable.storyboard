@@ -180,6 +180,36 @@
             </objects>
             <point key="canvasLocation" x="-98.400000000000006" y="1777.961019490255"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="vt1-I1-DPq">
+            <objects>
+                <viewController id="GZq-rY-SpU" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="IQM-vt-sVe"/>
+                        <viewControllerLayoutGuide type="bottom" id="rjx-QO-KbY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="LWu-IX-DLD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2Vk-9F-nni">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="2Vk-9F-nni" firstAttribute="centerY" secondItem="LWu-IX-DLD" secondAttribute="centerY" id="03m-qO-wOI"/>
+                            <constraint firstItem="2Vk-9F-nni" firstAttribute="height" secondItem="LWu-IX-DLD" secondAttribute="height" id="9jg-VY-ssD"/>
+                            <constraint firstItem="2Vk-9F-nni" firstAttribute="width" secondItem="LWu-IX-DLD" secondAttribute="width" id="G5B-kh-r8H"/>
+                            <constraint firstItem="2Vk-9F-nni" firstAttribute="centerX" secondItem="LWu-IX-DLD" secondAttribute="centerX" id="ydV-2S-dDo"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="m5L-S8-P3C" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1032.8" y="1683.5082458770617"/>
+        </scene>
         <!--RevealViewController-->
         <scene sceneID="H3f-9N-Cld">
             <objects>
@@ -451,6 +481,10 @@
         <scene sceneID="BtL-Fg-tYz">
             <objects>
                 <viewController id="2Je-zv-OmK" customClass="BlogPVC" customModule="SAT_Math" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9kF-eP-zpN"/>
+                        <viewControllerLayoutGuide type="bottom" id="C62-HO-TwG"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="XRL-kh-0SL">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="201"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -461,7 +495,42 @@
             </objects>
             <point key="canvasLocation" x="-98.400000000000006" y="2285.307346326837"/>
         </scene>
+        <!--Blog ContentVC-->
+        <scene sceneID="o7a-bX-shF">
+            <objects>
+                <viewController storyboardIdentifier="blogcontentvc" useStoryboardIdentifierAsRestorationIdentifier="YES" id="H1B-mb-sc3" customClass="BlogContentVC" customModule="SAT_Math" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="IuQ-PP-UjI"/>
+                        <viewControllerLayoutGuide type="bottom" id="QrU-6O-kbm"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="aMB-QF-C3X">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blog1" translatesAutoresizingMaskIntoConstraints="NO" id="AgS-cZ-yjU">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="AgS-cZ-yjU" firstAttribute="height" secondItem="aMB-QF-C3X" secondAttribute="height" id="J5B-ll-M7e"/>
+                            <constraint firstItem="AgS-cZ-yjU" firstAttribute="width" secondItem="aMB-QF-C3X" secondAttribute="width" id="Lt2-1B-3nS"/>
+                            <constraint firstItem="AgS-cZ-yjU" firstAttribute="centerY" secondItem="aMB-QF-C3X" secondAttribute="centerY" id="j4G-ba-99X"/>
+                            <constraint firstItem="AgS-cZ-yjU" firstAttribute="centerX" secondItem="aMB-QF-C3X" secondAttribute="centerX" id="xHW-mB-N5Y"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="blogImage" destination="AgS-cZ-yjU" id="ZEP-Tg-vDt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="k7S-v6-zsc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-87.200000000000003" y="2719.7901049475263"/>
+        </scene>
     </scenes>
+    <resources>
+        <image name="blog1" width="270" height="187"/>
+    </resources>
     <inferredMetricsTieBreakers>
         <segue reference="ebc-R9-nRM"/>
     </inferredMetricsTieBreakers>

@@ -34,6 +34,10 @@ class BlogPVC: UIViewController, UIPageViewControllerDataSource, UIPageViewContr
     
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        configurePageControl() // adjusts to container size where as viewdidload doesnt have container set up yet 
+    }
+    
     
     func pageViewController(_ pageViewController: UIPageViewController, viewControllerBefore viewController: UIViewController) -> UIViewController?
     {
@@ -87,9 +91,11 @@ class BlogPVC: UIViewController, UIPageViewControllerDataSource, UIPageViewContr
         // The total number of pages that are available is based on how many available colors we have.
         
         let xPos = 0.00 //0.25*self.view.bounds.width
-        let yPos = 100 //self.view.bounds.height-10
-        let width = 100 as CGFloat
-        let height = 100 as CGFloat
+        let yPos = self.view.bounds.height-20
+        let width = self.view.bounds.width //150 as CGFloat
+        let height = 20 as CGFloat
+        
+        print(self.view.bounds.height)
         
        
         
@@ -130,15 +136,21 @@ class BlogPVC: UIViewController, UIPageViewControllerDataSource, UIPageViewContr
     
     func setUpPages() {
         
-        let page1: BlogContentVC! = BlogContentVC()
+        let storyboard = UIStoryboard(name: "QuestionTable", bundle: Bundle.main)
+        
+        
+        
+        let page1: BlogContentVC! = storyboard.instantiateViewController(withIdentifier: "blogcontentvc") as! BlogContentVC
         page1.pageIndex = 0
-        page1.view.backgroundColor = UIColor.blue
-        let page2: BlogContentVC! = BlogContentVC()
+        page1.image = UIImage(named: "blog1")
+        //page1.view.backgroundColor = UIColor.blue
+        let page2: BlogContentVC! = storyboard.instantiateViewController(withIdentifier: "blogcontentvc") as! BlogContentVC
         page2.pageIndex = 1
-        page2.view.backgroundColor = UIColor.red
-        let page3: BlogContentVC! = BlogContentVC()
+        page2.image = UIImage(named: "blog2")
+        let page3: BlogContentVC! = storyboard.instantiateViewController(withIdentifier: "blogcontentvc") as! BlogContentVC
         page3.pageIndex = 2
-        page3.view.backgroundColor = UIColor.brown
+        page3.image = UIImage(named: "blog3")
+     
         
         
         pages.append(page1)
