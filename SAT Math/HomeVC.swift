@@ -37,66 +37,30 @@ class HomeVC: UIViewController {
         
     }
     
-    class ContainerView : UIViewController {
-        @IBOutlet var myPageController: UIPageControl!
-    }
-    
-    class MyPageViewController: UIPageViewController, UIPageViewControllerDataSource, UIPageViewControllerDelegate {
-        
-        var pages = [UIViewController]()
-        
-        override func viewDidLoad() {
-            super.viewDidLoad()
-            
-            self.delegate = self
-            self.dataSource = self
-            
-            let page1: UIViewController! = storyboard?.instantiateViewController(withIdentifier: "Page1ID")
-            let page2: UIViewController! = storyboard?.instantiateViewController(withIdentifier: "Page2ID")
-            let page3: UIViewController! = storyboard?.instantiateViewController(withIdentifier: "Page3ID")
-            pages.append(page1)
-            pages.append(page2)
-            pages.append(page3)
-            setViewControllers([page1], direction: UIPageViewControllerNavigationDirection.forward, animated: false, completion: nil)
-        }
-        
-        func pageViewController(_ pageViewController: UIPageViewController, viewControllerBefore viewController: UIViewController) -> UIViewController? {
-            let currentIndex = pages.index(of: viewController)!
-            if (currentIndex == 0) {
-                return pages[currentIndex]
-            }
-            let previousIndex = abs((currentIndex - 1) % pages.count)
-            //myPageControl.currentPage = previousIndex
-            return pages[previousIndex]
-        }
-        
-        func pageViewController(_ pageViewController: UIPageViewController, viewControllerAfter viewController: UIViewController) -> UIViewController? {
-            let currentIndex = pages.index(of: viewController)!
-            if (currentIndex == 2) {
-                return pages[currentIndex]
-            }
-            let nextIndex = abs((currentIndex + 1) % pages.count)
-            //myPageControl.currentPage = nextIndex
-            return pages[nextIndex]
-        }
-        
-        func presentationCountForPageViewController(pageViewController: UIPageViewController) -> Int {
-            return pages.count
-        }
-        
-        func presentationIndexForPageViewController(pageViewController: UIPageViewController) -> Int {
-            return 0
-        }
-        
-    }
-
-    
-    
-    
-    
-    
-    
-    
     
     
 }
+
+class ContainerView : UIViewController {
+    @IBOutlet var myPageController: UIPageControl!
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

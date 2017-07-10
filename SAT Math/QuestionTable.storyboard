@@ -447,10 +447,10 @@
             </objects>
             <point key="canvasLocation" x="-98" y="1055"/>
         </scene>
-        <!--View Controller-->
+        <!--BlogPVC-->
         <scene sceneID="BtL-Fg-tYz">
             <objects>
-                <viewController id="2Je-zv-OmK" sceneMemberID="viewController">
+                <viewController id="2Je-zv-OmK" customClass="BlogPVC" customModule="SAT_Math" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XRL-kh-0SL">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="201"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -459,7 +459,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C4w-7P-ICK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-98" y="2286"/>
+            <point key="canvasLocation" x="-98.400000000000006" y="2285.307346326837"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
