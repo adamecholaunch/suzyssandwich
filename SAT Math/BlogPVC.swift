@@ -8,12 +8,13 @@
 
 import UIKit
 
-class BlogPVC: UIViewController, UIPageViewControllerDataSource {
+class BlogPVC: UIViewController, UIPageViewControllerDataSource, UIPageViewControllerDelegate {
 
     
     var pages = [UIViewController]()
     var pageViewController : UIPageViewController?
     var currentIndex = 0
+    var pageControl = UIPageControl()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,8 +27,13 @@ class BlogPVC: UIViewController, UIPageViewControllerDataSource {
         addChildViewController(pageViewController!)
         view.addSubview(pageViewController!.view)
         pageViewController!.didMove(toParentViewController: self)
+        
+        self.pageViewController?.delegate = self
+        
+        configurePageControl()
     
     }
+    
     
     func pageViewController(_ pageViewController: UIPageViewController, viewControllerBefore viewController: UIViewController) -> UIViewController?
     {
@@ -75,27 +81,42 @@ class BlogPVC: UIViewController, UIPageViewControllerDataSource {
     }
     
     
-    
-    
-    func presentationCountForPageViewController(pageViewController: UIPageViewController) -> Int
-    {
-        return self.pages.count
-    }
-    
-    func presentationIndexForPageViewController(pageViewController: UIPageViewController) -> Int
-    {
-        return 0
-    }
 
-    
+  
+    func configurePageControl() {
+        // The total number of pages that are available is based on how many available colors we have.
         
+        let xPos = 0.00 //0.25*self.view.bounds.width
+        let yPos = 100 //self.view.bounds.height-10
+        let width = 100 as CGFloat
+        let height = 100 as CGFloat
+        
+       
+        
+        let ap = UIPageControl.appearance()
+        ap.currentPage = 0
+        ap.numberOfPages = pages.count
+        ap.backgroundColor = UIColor.clear
+        ap.tintColor = UIColor.black
+        ap.pageIndicatorTintColor = UIColor.white
+        ap.currentPageIndicatorTintColor =  UIColor.black
+    
+        pageControl = UIPageControl(frame: CGRect(x: CGFloat(xPos), y: CGFloat(yPos),width: width,height: height))
+       
+        
+        self.view.addSubview(pageControl)
+        
+        self.view.bringSubview(toFront: pageControl)
+    }
+    
+    func pageViewController(_ pageViewController: UIPageViewController, didFinishAnimating finished: Bool, previousViewControllers: [UIViewController], transitionCompleted completed: Bool) {
+        let pageContentViewController = pageViewController.viewControllers![0]
+        self.pageControl.currentPage = pages.index(of: pageContentViewController)!
+    }
+    
+    
     
 
-    
-    
-
-    
-    
 
     /*
     // MARK: - Navigation
